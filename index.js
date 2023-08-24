@@ -9,6 +9,15 @@ app.get("/", (req, res) => {
   console.log("home page rendering ... ")
 });
 
+app.get("/about", (req, res)=>{
+  res.render("about.ejs");
+  console.log("Rendring the about page");
+});
+
+app.get("/contact", (req, res)=>{
+  res.render("contact.ejs");
+});
+
 
 /* Write your code here:
 Step 1: Render the home page "/" index.ejs
