@@ -8,6 +8,8 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
   console.log("home page rendering ... ")
 });
+
+
 /* Write your code here:
 Step 1: Render the home page "/" index.ejs
 Step 2: Make sure that static files are linked to and the CSS shows up.
